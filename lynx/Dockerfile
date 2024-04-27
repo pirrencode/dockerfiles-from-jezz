@@ -1,9 +1,9 @@
-# Run Lynx in a conatiner
-#
-# docker run --rm -it \
-#	--name lynx \
-#	jess/lynx github.com/jessfraz
-#
+# Run Lynx in a container
+
+docker run --rm -it \
+	--name lynx \
+	jess/lynx github.com/jessfraz
+
 FROM debian:bullseye-slim
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
